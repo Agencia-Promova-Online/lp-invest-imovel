@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Users, Globe, Shield, TrendingUp, CheckCircle } from 'lucide-react';
+import equipeInvest from '../assets/foto-alpha.webp';
 
 const Company: React.FC = () => {
   const achievements = [
@@ -69,7 +70,7 @@ const Company: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-amber-600/20 rounded-2xl transform rotate-3 scale-105" />
               <div className="relative bg-white p-4 rounded-2xl shadow-2xl">
                 <img
-                  src="https://obkphspftyoddbglfnrz.supabase.co/storage/v1/object/public/image/Maquinas/equipe-invest.jpg"
+                  src={equipeInvest}
                   alt="Equipe Invest Intermediação"
                   className="w-full h-64 object-cover rounded-xl"
                 />
